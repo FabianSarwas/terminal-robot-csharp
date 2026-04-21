@@ -1,0 +1,14 @@
+C:\xampp\htdocs\MeinProjekt\obj\Debug\net9.0\MeinProjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\MeinProjekt\obj\Debug\net9.0\MeinProjekt.AssemblyInfoInputs.cache
+C:\xampp\htdocs\MeinProjekt\obj\Debug\net9.0\MeinProjekt.AssemblyInfo.cs
+C:\xampp\htdocs\MeinProjekt\obj\Debug\net9.0\MeinProjekt.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\MeinProjekt\bin\Debug\net9.0\MeinProjekt.exe
+C:\xampp\htdocs\MeinProjekt\bin\Debug\net9.0\MeinProjekt.deps.json
+C:\xampp\htdocs\MeinProjekt\bin\Debug\net9.0\MeinProjekt.runtimeconfig.json
+C:\xampp\htdocs\MeinProjekt\bin\Debug\net9.0\MeinProjekt.dll
+C:\xampp\htdocs\MeinProjekt\bin\Debug\net9.0\MeinProjekt.pdb
+C:\xampp\htdocs\MeinProjekt\obj\Debug\net9.0\MeinProjekt.dll
+C:\xampp\htdocs\MeinProjekt\obj\Debug\net9.0\refint\MeinProjekt.dll
+C:\xampp\htdocs\MeinProjekt\obj\Debug\net9.0\MeinProjekt.pdb
+C:\xampp\htdocs\MeinProjekt\obj\Debug\net9.0\MeinProjekt.genruntimeconfig.cache
+C:\xampp\htdocs\MeinProjekt\obj\Debug\net9.0\ref\MeinProjekt.dll
