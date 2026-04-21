@@ -22,11 +22,16 @@ Der Roboter kann über ein Menü gesteuert werden und verschiedene Aufgaben ausf
 Einige Aktionen verbrauchen Energie.
 Wenn der Akkustand zu niedrig ist, kann Robby bestimmte Aufgaben nicht mehr ausführen, bis er wieder aufgeladen wurde.
 
-📚 Was ich dabei gelernt habe
+📚 Was ich dabei gelernt habe:
+
 Arbeiten mit Klassen und Methoden in C#
+
 Nutzung von Eigenschaften und Konstruktoren
+
 Aufbau eines menügesteuerten Konsolenprogramms
+
 Umsetzung einfacher Logik und Zustände
+
 Strukturierung eines kleinen Softwareprojekts
 
 🔧 Mögliche Erweiterungen
