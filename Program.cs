@@ -1,24 +1,48 @@
 ﻿using System;
-
+using System.Collections.Generic;
 
 
 class Programm
 {
     static void Main(string[] args)
     {
+
+        List<Robot> roboter = new List<Robot>();
+
         Robot robby = new Robot("Robby", 100);
         robby.Status();
+
+        Robot ralph = new Robot("Ralph", 100);
+        ralph.Status();
+
+        Robot dave = new Robot("Dave", 100);
+        dave.Status();
+
+        roboter.Add(robby);
+        roboter.Add(ralph);
+        roboter.Add(dave);
+
+        Console.WriteLine("Wähle einen Roboter aus.");
+        Console.WriteLine("1: Robby");
+        Console.WriteLine("2: Ralph");
+        Console.WriteLine("3: Dave");
+
+
+
+        int auswahlRobot = Convert.ToInt32(Console.ReadLine());
+        Robot aktuellerRoboter = roboter[auswahlRobot - 1];
 
         bool showMenu = true;
         while (showMenu)
         {
+
             Console.WriteLine("Geben Sie bitte eine Zahl ein.");
-            Console.WriteLine("1: Robby Status anzeigen");
-            Console.WriteLine("2: Robby putzen lassen");
-            Console.WriteLine("3: Robby einkaufen lassen");
-            Console.WriteLine("4: Robby schlafen lassen");
-            Console.WriteLine("5: Robby reparieren lassen");
-            Console.WriteLine("6: Robby aufladen lassen");
+            Console.WriteLine("1: aktuellerRoboter Status anzeigen");
+            Console.WriteLine("2: aktuellerRoboter putzen lassen");
+            Console.WriteLine("3: aktuellerRoboter einkaufen lassen");
+            Console.WriteLine("4: aktuellerRoboter schlafen lassen");
+            Console.WriteLine("5: aktuellerRoboter reparieren lassen");
+            Console.WriteLine("6: aktuellerRoboter aufladen lassen");
             Console.WriteLine("0: Beenden");
 
             int auswahl = Convert.ToInt32(Console.ReadLine());
@@ -28,30 +52,30 @@ class Programm
 
 
                 case 1:
-                    robby.Status();
+                    aktuellerRoboter.Status();
                     break;
 
                 case 2:
-                    robby.Putzen();
+                    aktuellerRoboter.Putzen();
                     break;
 
                 case 3:
-                    robby.Einkaufen();
+                    aktuellerRoboter.Einkaufen();
 
                     break;
 
                 case 4:
-                    robby.Schlafen();
+                    aktuellerRoboter.Schlafen();
 
                     break;
 
                 case 5:
-                    robby.Reparieren();
+                    aktuellerRoboter.Reparieren();
 
                     break;
 
                 case 6:
-                    robby.Aufladen();
+                    aktuellerRoboter.Aufladen();
 
                     break;
 
@@ -67,7 +91,7 @@ class Programm
 
             if (auswahl >= 2 && auswahl <= 6)
             {
-                robby.Status();
+                aktuellerRoboter.Status();
             }
 
         }
