@@ -17,12 +17,6 @@ Der Roboter kann über ein Menü gesteuert werden und verschiedene Aufgaben ausf
 - C#
 - .NET
 
-## ▶️ Ausführen des Programms
-
-1. Repository klonen:
-```bash
-git clone https://github.com/FabianSarwas/terminal-robot-csharp.git
-
 ⚙️ Funktionsweise
 
 Einige Aktionen verbrauchen Energie.
