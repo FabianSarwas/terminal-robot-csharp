@@ -84,6 +84,19 @@ class Robot
         Akku = akku;
     }
 
+    public bool HatGenugAkku(int kosten)
+    {
+        if (Akku > kosten)
+        {
+            Akku -= kosten;
+            return true;
+        }
+        else
+        {
+            Console.WriteLine("Akku zu niedrig, bitte laden!");
+            return false;
+        }
+    }
 
     public void Status()
     {
@@ -92,15 +105,8 @@ class Robot
 
     public void Putzen()
     {
-
-
-        if (Akku < 20)
+        if (HatGenugAkku(20))
         {
-            Console.WriteLine("Akku zu niedrig, bitte aufladen.");
-        }
-        else
-        {
-            Akku -= 20;
             Console.WriteLine("Robby putzt die Wohnung.");
         }
     }
@@ -110,39 +116,22 @@ class Robot
 
     public void Einkaufen()
     {
-        if (Akku < 20)
+        if (HatGenugAkku(20))
         {
-            Console.WriteLine("Akku zu niedrig, bitte aufladen.");
-        }
-        else
-        {
-            Akku -= 20;
             Console.WriteLine("Robby geht einkaufen.");
         }
     }
-
     public void Schlafen()
     {
-        if (Akku < 5)
+        if (HatGenugAkku(5))
         {
-            Console.WriteLine("Akku zu niedrig, bitte aufladen.");
-        }
-        else
-        {
-            Akku -= 5;
             Console.WriteLine("Robby schläft.");
         }
     }
-
     public void Reparieren()
     {
-        if (Akku < 5)
+        if (HatGenugAkku(5))
         {
-            Console.WriteLine("Akku zu niedrig, bitte aufladen.");
-        }
-        else
-        {
-            Akku -= 5;
             Console.WriteLine("Robby repariert sich selbst.");
         }
     }
